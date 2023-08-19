@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 800px;
+}
+
+.jumbo {
+  background-color: rgb(99, 84, 250);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jumbo h1 {
+  margin-top: 20px;
+}
+
+input {
+  height: 120px;
+  width: 120px;
+  background-color: rgb(99, 84, 250);
+  border: 1px rgb(152, 133, 249) solid;
+  border-radius: 4px;
+  font-size: 100px;
+  text-align: center;
+  /* line-height: 10px; */
+  color: white;
+  padding: 1px;
+  margin: 1px;
+}
+button {
+  margin: 20px;
+  background-color: white;
+  color: rgb(99, 84, 250);
+  padding: 10px 30px;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(244, 244, 243);
+}
+.container h4 {
+  color: rgb(84, 80, 118);
+}
+content div {
+  background-color: white;
+}
