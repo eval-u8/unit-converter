@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Inter", sans-serif;
   max-width: 800px;
 }
 .container {
@@ -23,16 +23,13 @@ body {
 
 input {
   height: 120px;
-  width: 120px;
+  width: 180px;
   background-color: rgb(99, 84, 250);
   border: 1px rgb(152, 133, 249) solid;
   border-radius: 4px;
   font-size: 100px;
   text-align: center;
-  /* line-height: 10px; */
   color: white;
-  padding: 1px;
-  margin: 1px;
 }
 button {
   margin: 20px;
@@ -49,10 +46,13 @@ button {
   margin: 0;
   padding: 10px;
   background-color: rgb(244, 244, 243);
+  border-radius: 0 0 10px 10px;
 }
 .container h4 {
   color: rgb(84, 80, 118);
 }
-content div {
+.content div {
   background-color: white;
+  padding: 5px 25px;
+  margin: 10px;
 }
